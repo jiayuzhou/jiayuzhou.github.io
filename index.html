@@ -62,7 +62,11 @@
                                             </tr>
                                             <tr>
                                                 <td>Phone:</td>
-                                                <td>(408) 544-5852</td>
+                                                <td>
+                                                    <div id="phone">
+                                                        [Turn on javascirpt to check the link]
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr valign="top">
                                                 <td>Address:</td>
@@ -254,6 +258,13 @@
 
 
         <script type="text/javascript">
+            function () {
+             var part1 = '(408)';
+             var part2 = '544-';
+             var part3 = '5852';
+             document.getElementById('phone').innerHTML = part1 + part2 + part3;
+             })();
+
             (function () {
              var part2 = 'msang.com';
              var part1 = 'jiay';
