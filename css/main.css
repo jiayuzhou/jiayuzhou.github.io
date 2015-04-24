@@ -49,15 +49,14 @@
 
 body
 {
-    background: #eeeeee;
+    background: #f9f9f7;
     text-align: center;
 }
 #body
 {
-    background: #ffffff;
+    background: #f9f9f7;
     text-align: left;
     padding: 15px;
-    border: solid 1px #cccccc;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;

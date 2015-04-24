@@ -162,12 +162,12 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: rgba(0, 0, 0, 0.5);
   background-color: #ffffff;
 }
 
 a {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
 
@@ -636,7 +636,7 @@ h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 1;
-  color: inherit;
+  color: rgba(0, 0, 0, 0.6);
   text-rendering: optimizelegibility;
 }
 
@@ -4391,7 +4391,8 @@ input[type="submit"].btn.btn-mini {
   padding: 10px 15px 10px;
   color: #777777;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
+  /*text shadow for navigation button*/
+  /*text-shadow: 0 1px 0 #ffffff;*/
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -4405,15 +4406,16 @@ input[type="submit"].btn.btn-mini {
   background-color: transparent;
 }
 
+/*the active states of the navigation button*/
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
   color: #555555;
   text-decoration: none;
   background-color: #e5e5e5;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  /*-webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);*/
 }
 
 .navbar .btn-navbar {
@@ -4563,22 +4565,24 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
 }
 
+/* The navigation bar on normal state*/
 .navbar-inverse .navbar-inner {
   background-color: #1b1b1b;
-  background-image: -moz-linear-gradient(top, #222222, #111111);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
-  background-image: -webkit-linear-gradient(top, #222222, #111111);
-  background-image: -o-linear-gradient(top, #222222, #111111);
-  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-image: -moz-linear-gradient(top, #f9f9f7, #f9f9f7);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f7), to(#f9f9f7));
+  background-image: -webkit-linear-gradient(top, #f9f9f7, #f9f9f7);
+  background-image: -o-linear-gradient(top, #f9f9f7, #f9f9f7);
+  background-image: linear-gradient(to bottom, #f9f9f7, #f9f9f7);
   background-repeat: repeat-x;
-  border-color: #252525;
+  border-color: #808080; 
+  /*color of the line below the color bar*/
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #999999;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.5);
+  /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
 }
 
 .navbar-inverse .brand:hover,
@@ -4588,15 +4592,17 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0.9);
   background-color: transparent;
 }
 
+/*Navigation button color. */
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  color: #ffffff;
-  background-color: #111111;
+  color: rgba(0, 0, 0, 0.9);
+  /*color: #0DB14B;*/
+  /*background-color: #111111;*/
 }
 
 .navbar-inverse .navbar-link {
