@@ -171,8 +171,9 @@ a {
   text-decoration: none;
 }
 
+/* the real hover */
 a:hover {
-  color: #005580;
+  color: #18453B;
   text-decoration: underline;
 }
 
