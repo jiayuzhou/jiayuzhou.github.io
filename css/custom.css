@@ -1,6 +1,7 @@
 body{
   margin: 0 !important;
   padding: 0 !important;
+  background-color: #f2f2f2;
 }
 /*Light: 0db14b, Dark: 006600*/
 a {
@@ -144,7 +145,7 @@ img.grayscale:hover {
     display: block;
     width: 100%;
     height: 6.5rem;
-    background: #fff;
+    background: #f2f2f2;
     z-index: 99;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee; }
