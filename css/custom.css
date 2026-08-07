@@ -31,6 +31,8 @@ a:hover {
 .value-img {
   display: block;
   text-align: center;
+  max-width: 100%;
+  height: auto;
   margin: 2.5rem auto 0; }
 .example-grid .column,
 .example-grid .columns {
